@@ -24,6 +24,6 @@ JavaScript (Vanilla)
 AOS (Animate on Scroll) Library
 
 🚀 Getting Started
-To run the project locally:
 
 Clone the repository:
+https://eyy4k.github.io/Fitness-Landing-Page/
