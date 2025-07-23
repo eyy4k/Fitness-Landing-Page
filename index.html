@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Week Fitness Challenge</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Use Inter as the default font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #E5E7EB; /* A light gray background similar to the screenshot */
+        }
+        /* Custom styles for better visual appeal */
+        .form-card, .feature-card, .gallery-card, .footer-card {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .main-title {
+            color: #374151; /* Darker gray for titles */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Main container -->
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <!-- Section 1: Pre-Register Form -->
+        <section class="text-center py-12">
+            <h1 class="main-title text-3xl md:text-4xl font-bold mb-8">Pre Register For My 8 Week Challenge</h1>
+            <div class="form-card bg-white rounded-2xl p-8 max-w-lg mx-auto">
+                <h2 class="text-2xl font-bold text-gray-800">Claim your spot + special launch pricing</h2>
+                <p class="text-gray-500 mt-2 mb-6">Enter your details down below to claim your spot.</p>
+                <form id="form1">
+                    <div class="space-y-4">
+                        <input type="text" placeholder="Enter Your Name Here..." class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                        <input type="email" placeholder="Enter Your Email Here..." class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105">Claim My Spot!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Section 2: What the Challenge Includes -->
+        <section class="py-12">
+            <h2 class="main-title text-center text-3xl md:text-4xl font-bold mb-12">What The 8 Week Challenge Includes:</h2>
+            <div class="space-y-8">
+
+                <!-- Feature 1: Personalised Workout Plan -->
+                <div class="feature-card bg-white rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 text-center md:text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Personalised Workout Plan</h3>
+                        <p class="text-gray-600 leading-relaxed">You will receive a personalised workout plan that aligns with your lifestyle and goals that is fully based around my proven to work training methods.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://placehold.co/500x400/000000/FFFFFF?text=App+Screenshot" alt="Workout Plan App Screenshot" class="rounded-lg shadow-md w-full">
+                    </div>
+                </div>
+
+                <!-- Feature 2: Personalised Diet Plan -->
+                <div class="feature-card bg-white rounded-2xl p-8 flex flex-col md:flex-row-reverse items-center gap-8">
+                    <div class="md:w-1/2 text-center md:text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Personalised Diet Plan</h3>
+                        <p class="text-gray-600 leading-relaxed">You will also receive a personalised meal plan based around your lifestyle, goals and foods you actually like so that you can enjoy the whole process.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                         <img src="https://placehold.co/500x400/000000/FFFFFF?text=Meal+Plan+App" alt="Diet Plan App Screenshot" class="rounded-lg shadow-md w-full">
+                    </div>
+                </div>
+
+                <!-- Feature 3: Private Community -->
+                <div class="feature-card bg-white rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
+                    <div class="md:w-1/2 text-center md:text-left">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Private Community</h3>
+                        <p class="text-gray-600 leading-relaxed">You will get access to a private community with similar-minded people, with the same goals as you. It's a place where you will get all your questions answered and keep you motivated.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://placehold.co/500x400/333333/FFFFFF?text=Community+Image" alt="Man with medicine ball" class="rounded-lg shadow-md w-full">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3: Proven Methods -->
+        <section class="py-12">
+            <h2 class="main-title text-center text-3xl md:text-4xl font-bold mb-12">Proven To Work Coaching Methods:</h2>
+            <div class="gallery-card bg-white rounded-2xl p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <img src="https://placehold.co/400x500/CCCCCC/FFFFFF?text=Transformation+1" alt="Transformation photo 1" class="rounded-lg shadow-md w-full h-auto object-cover">
+                    <img src="https://placehold.co/400x500/CCCCCC/FFFFFF?text=Transformation+2" alt="Transformation photo 2" class="rounded-lg shadow-md w-full h-auto object-cover">
+                    <img src="https://placehold.co/400x500/CCCCCC/FFFFFF?text=Transformation+3" alt="Transformation photo 3" class="rounded-lg shadow-md w-full h-auto object-cover md:col-span-2 lg:col-span-1">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: The Choice Is Yours Form -->
+        <section class="text-center py-12">
+            <div class="form-card bg-white rounded-2xl p-8 max-w-lg mx-auto">
+                <h2 class="text-2xl font-bold text-gray-800">The Choice Is Yours</h2>
+                <p class="text-gray-500 mt-2 mb-6">Are you ready to transform your body for the better?</p>
+                <form id="form2">
+                    <div class="space-y-4">
+                        <input type="text" placeholder="Enter Your Name Here..." class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                        <input type="text" placeholder="Enter Your Instagram Handle..." class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                        <input type="email" placeholder="Enter Your Email Here..." class="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition">
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-4 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105">Claim My Spot!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-12">
+            <div class="footer-card bg-white rounded-2xl p-8 max-w-lg mx-auto">
+                <div class="text-blue-700 font-extrabold text-3xl mb-4">
+                    KDF
+                    <span class="block text-sm font-normal text-gray-500 tracking-widest">COACHING</span>
+                </div>
+                <p class="text-gray-500 text-sm">CUSTOM NUTRITION & EXERCISE PROGRAMS © 2023 KDF - All Rights Reserved</p>
+                <a href="#" class="text-gray-500 text-sm underline mt-2 inline-block hover:text-blue-600">TERMS & CONDITIONS</a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // This script prevents the forms from submitting and reloading the page.
+        // In a real application, you would handle the form data here,
+        // for example, by sending it to a server.
+        document.getElementById('form1').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for registering!');
+        });
+
+        document.getElementById('form2').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for claiming your spot!');
+        });
+    </script>
+
+</body>
+</html>
 
